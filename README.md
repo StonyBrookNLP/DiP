@@ -8,6 +8,8 @@ Preprint will be available soon.
 
 
 ## DiP: Diverse Precondition Generation
+We introduce a three-stage generative process, which we call DiP. In the first stage, DiP uses an event sampler whose only goal is to generate event trigger words as precondition candidates. In the second stage, DiP forces the generative model to use the candidate triggers from the first stage to produce the full description of the precondition event. In the third stage, DiP reranks and filters the generated descriptions using a precondition classifier (also trained from the same training data).
+
 ![System](images/multi_precond_reranking_filtering_horizontal_colored.png)
 
 ## Download
