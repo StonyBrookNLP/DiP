@@ -12,7 +12,7 @@ We introduce a three-stage generative process, which we call DiP. In the first s
 
 Here's a brief example:
 
-<img src="images/dip_example.png" width="400" class="center">
+<img src="images/dip_example.png" width="400" align="middle">
 
 ![System](images/multi_precond_reranking_filtering_horizontal_colored.png)
 
